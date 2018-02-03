@@ -1,0 +1,8 @@
+main: net.simplyrin.hononet.antiblock.Main
+name: AntiBlock
+version: 1.0
+authors: [SimplyRin]
+
+commands:
+  antiblock:
+    usage: /antiblock <reload>

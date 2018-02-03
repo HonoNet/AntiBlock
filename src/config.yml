@@ -1,0 +1,13 @@
+Anti-Break:
+  world:    
+  - STONE
+  - DIAMOND_ORE
+  - DIAMOND_BLOCK
+Anti-Place:
+  world:
+  - STONE
+  - DIAMOND_ORE
+  - DIAMOND_BLOCK
+Warning-Blocks:
+  world:
+  - TNT
