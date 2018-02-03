@@ -76,9 +76,9 @@ public class Main extends JavaPlugin implements Listener {
 
 		for(String name : getConfig().getStringList("Warning-Blocks." + world.getName())) {
 			if(block.getType() == Material.getMaterial(name)) {
-				for(Player p : Bukkit.getOnlinePlayers()) {
-					if(p.hasPermission("antiblock.view")) {
-						p.sendMessage(this.getPrefix() + "§c" + player.getName() + " が " + block.getType().name() + " を設置しました。");
+				for(Player target : Bukkit.getOnlinePlayers()) {
+					if(target.hasPermission("antiblock.view")) {
+						target.sendMessage(this.getPrefix() + "§c" + player.getName() + " が " + block.getType().name() + " を設置しました。");
 					}
 				}
 
